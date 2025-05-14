@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/ada823/lesgo_sol/lesgo/CMakeLists.txt"
+  "/home/moa424/ada823_proj/moa424/lesgo/CMakeLists.txt"
   "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeFortranCompiler.cmake"
@@ -137,5 +137,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/lesgo-mpi-scalars.dir/DependInfo.cmake"
+  "CMakeFiles/lesgo-mpi.dir/DependInfo.cmake"
   )

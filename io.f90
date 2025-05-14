@@ -380,22 +380,28 @@ use types ,only: rprec
 use param ,only: jt_total, total_time, total_time_dim, dt, dt_dim, wbase
 use param ,only: L_x, z_i, u_star
 use functions ,only: get_tau_wall_bot
+use sea_surface_drag_model, only: get_tau_wave_bot
+
 implicit none
 
 real(rprec) :: turnovers
+real(rprec) :: tau_wave_x, tau_wave_y, tau_wave_mag
 
 turnovers = total_time_dim / (L_x * z_i / u_star)
 
 open(2,file=path // 'output/tau_wall_bot.dat', status='unknown',               &
     form='formatted', position='append')
 
+!! get wave‑stress quantities
+call get_tau_wave_bot(tau_wave_x, tau_wave_y, tau_wave_mag)
+
 !! one time header output
 if (jt_total==wbase) write(2,*)                                                &
-    'jt_total, total_time, total_time_dim, turnovers, dt, dt_dim, 1.0, tau_wall'
+    'jt_total, total_time, total_time_dim, turnovers, dt, dt_dim, 1.0, tau_wall, tau_wave_x, tau_wave_y, tau_wave_mag'
 
 !! continual time-related output
 write(2,*) jt_total, total_time, total_time_dim, turnovers, dt, dt_dim,        &
-    1.0, get_tau_wall_bot()
+    1.0, get_tau_wall_bot(), tau_wave_x, tau_wave_y, tau_wave_mag
 close(2)
 
 end subroutine write_tau_wall_bot

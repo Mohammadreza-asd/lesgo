@@ -28,7 +28,7 @@ option(USE_ATM "Enable actuator line/section model" OFF)
 option(USE_DYN_TN "Dynamically update T, the timescale for Lagrangian averaging, using Taylor timescale." OFF)
 option(USE_SAFETYMODE "Set extra safety measures." ON)
 option(USE_CGNS "Enable CGNS data output." OFF)
-option(USE_SCALARS "Enable scalar transport module." ON)
+option(USE_SCALARS "Enable scalar transport module." OFF)
 
 # Enable verbose mode
 set(CMAKE_VERBOSE_MAKEFILE ON)

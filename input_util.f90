@@ -469,6 +469,10 @@ do
                 Read (buff(equal_pos+1:), *) nsteps_wavy
             case ('IS_SWELL')
                 Read (buff(equal_pos+1:), *) is_swell
+            case ('USE_CUSTOM_WALL_POINT')
+                Read (buff(equal_pos+1:), *)  use_custom_wall_point
+            case ('BOUNDARY_MODEL_GRID_POINT')
+                Read (buff(equal_pos+1:), *)  boundary_model_grid_point
             case ('UBOT')
                 Read (buff(equal_pos+1:), *) ubot
             case ('UTOP')

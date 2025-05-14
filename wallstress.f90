@@ -172,6 +172,7 @@ subroutine ws_equilibrium_lbc
 !*******************************************************************************
 use param, only : coord, read_endian, dz, ld, nx, ny, vonk, zo, use_sea_drag_model, jt_total, total_time, path, nsteps_wavy
 use param, only : sea_drag_io_flag, sea_drag_io_nstart, sea_drag_io_nend, sea_drag_io_nskip, write_endian,is_swell
+use param, only : use_custom_wall_point, boundary_model_grid_point
 use sim_param, only : u, v, ustar_lbc
 use sea_surface_drag_model
 use string_util
@@ -182,12 +183,24 @@ use scalars, only : obukhov, phi_m
 
 implicit none
 
-integer :: i, j
+integer :: i, j, kpoint
 character (64) :: fname
 real(rprec), dimension(nx, ny) :: denom, u_avg
 real(rprec), dimension(ld, ny) :: u1, v1
 real(rprec) :: const, time_wavy,factor,zloc,swell_term
 logical :: exst
+
+
+select case (kpoint)
+    case (1)
+        zloc = 0.5_rprec * dz
+    case (3)
+        zloc = 2.5_rprec * dz
+    case default
+        print *, "ERROR: Only kpoint = 1 or 3 supported. Got:", kpoint
+        stop
+end select
+
 
 if(use_sea_drag_model) then
         call sea_surface_drag_model_forces()
@@ -197,9 +210,8 @@ if(use_sea_drag_model) then
         !end do
 !! AA BOC
 !! We should not use the first grid point for stress calculaktions., Ideally use U10?.
-!! For now lets just use the third grid point. Only will change the wave routines
-!! z_3 = 5*dz/2    
- zloc  = 2.5_rprec*dz
+
+
         denom = log(zloc/zo-eta(1:nx,:)/zo)
 
         do i=1,nx
@@ -234,7 +246,7 @@ if(use_sea_drag_model) then
 else
         u1 = u(:,:,1)
         v1 = v(:,:,1)
-        denom = log(0.5_rprec*dz/zo)
+        denom = log(zloc/zo)
 endif
 
 call test_filter(u1)
