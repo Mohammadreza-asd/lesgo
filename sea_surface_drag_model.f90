@@ -23,8 +23,10 @@ contains
 subroutine sea_surface_drag_model_init() !GN
 !*******************************************************************************
 use param, only : ld, nx,ny,z_i,u_star, ak, c_by_ustar, dz, coord
-use param, only : use_custom_wall_point, boundary_model_grid_point
-integer :: kpoint
+use param, only : use_custom_wall_point, wall_model_grid_point, wave_model_grid_point
+integer :: k_wall, k_wave
+real(rprec) :: d
+
 
 implicit none
 allocate ( eta   (ld,ny)) ; eta    = 0._rprec
@@ -80,25 +82,12 @@ if (coord .eq. 0) then
 endif
 
 if (use_custom_wall_point) then
-    kpoint = boundary_model_grid_point
-
-    select case (kpoint)
-        case (1)
-            if (0.5_rprec * dz < a_amp) then
-                print *, "dz/2 < a_amp. Values:", 0.5_rprec * dz, a_amp
-                stop
-            end if
-
-        case (3)
-            if (2.5_rprec * dz < a_amp) then
-                print *, "2.5*dz < a_amp. Values:", 2.5_rprec * dz, a_amp
-                stop
-            end if
-
-        case default
-            print *, "Unsupported grid point (kpoint):", kpoint
-            stop
-    end select
+    k_wave = wave_model_grid_point
+    d =(real(k_wave, rprec) - 0.5_rprec)* dz
+    if (d< a_amp) then
+            print *, "d < a_amp. Values:", d , a_amp
+            STOP
+    endif
 end if
 
 end subroutine
@@ -108,12 +97,13 @@ subroutine sea_surface_drag_model_forces() !GN
 !*******************************************************************************
 use param, only : ld, ak, c_by_ustar, wave_angle, u_star, pi, z_i, total_time, dz, nx, ny, &
                   wave_orientation
-use param, only : use_custom_wall_point, boundary_model_grid_point
+use param, only : use_custom_wall_point, wall_model_grid_point, wave_model_grid_point
 use grid_m, only : grid
 use sim_param, only : u, v, w
 use functions, only : heaviside, heaviside_scalar
 implicit none
-integer :: i,j,kpoint
+integer :: i,j, k_wall, k_wave
+real(rprec) :: h
 
 !call sea_surface_drag_model_init()
 
@@ -152,10 +142,16 @@ SELECT CASE (WAVE_ORIENTATION)
   CASE DEFAULT
 ! WIND FOLLOWING WAVES
     if (use_custom_wall_point) then
-            kpoint = boundary_model_grid_point
+            k_wall = wall_model_grid_point
+            k_wave = wave_model_grid_point
     else
-            kpoint = 1 !default to first grid point
+            k_wall = 1 !default to first grid point
+            k_wave = 1 !default to first grid point
+
     endif
+   
+    h = real(k_wave, rprec) * dz
+
 
     do i = 1, nx
     do j = 1, ny
@@ -165,20 +161,20 @@ SELECT CASE (WAVE_ORIENTATION)
       us_orb(i,j) =   a_amp*omega_freq*cos( kx_wavno*grid%x(i) + ky_wavno*grid%y(j) - omega_freq*total_time )
       ws_orb(i,j) =   a_amp*omega_freq*sin( kx_wavno*grid%x(i) + ky_wavno*grid%y(j) - omega_freq*total_time )
       
-      u_rel(i,j)  =  u(i,j,kpoint) - us_orb(i,j)
-      v_rel(i,j)  =  v(i,j,kpoint) - vs_orb(i,j)
-      w_rel(i,j)  =  w(i,j,kpoint) - ws_orb(i,j)
+      u_rel(i,j)  =  u(i,j,k_wall) - us_orb(i,j)
+      v_rel(i,j)  =  v(i,j,k_wall) - vs_orb(i,j)
+      w_rel(i,j)  =  w(i,j,k_wall) - ws_orb(i,j)
    
-      u_rel_c(i,j)=  u(i,j,kpoint) - cx_phase
-      v_rel_c(i,j)=  v(i,j,kpoint) - cy_phase
+      u_rel_c(i,j)=  u(i,j,k_wave) - cx_phase
+      v_rel_c(i,j)=  v(i,j,k_wave) - cy_phase
     
       n_u(i,j)    = u_rel_c(i,j)/SQRT(u_rel_c(i,j)**2+v_rel_c(i,j)**2)
       n_v(i,j)    = v_rel_c(i,j)/SQRT(u_rel_c(i,j)**2+v_rel_c(i,j)**2)
-      fd_u(i,j)   = -SIGN(1._rprec,u_rel_c(i,j))*1.2/(1+6*a_amp**2*k_wavno**2)*(a_amp*k_wavno)*abs(u(i,j,kpoint))/dz &
+      fd_u(i,j)   = -SIGN(1._rprec,u_rel_c(i,j))*1.2/(1+6*a_amp**2*k_wavno**2)*(a_amp*k_wavno)*abs(u(i,j,k_wave))/h &
                    *SQRT(u_rel_c(i,j)**2+v_rel_c(i,j)**2) &
                    *(n_u(i,j)*detadx(i,j)+n_v(i,j)*detady(i,j))*heaviside_scalar(n_u(i,j)*detadx(i,j)+n_v(i,j)*detady(i,j))
     
-      fd_v(i,j)   = -SIGN(1._rprec,v_rel_c(i,j))*1.2/(1+6*a_amp**2*k_wavno**2)*(a_amp*k_wavno)*abs(v(i,j,kpoint))/dz &
+      fd_v(i,j)   = -SIGN(1._rprec,v_rel_c(i,j))*1.2/(1+6*a_amp**2*k_wavno**2)*(a_amp*k_wavno)*abs(v(i,j,k_wave))/h &
                    *SQRT(u_rel_c(i,j)**2+v_rel_c(i,j)**2) &
                    *(n_u(i,j)*detadx(i,j)+n_v(i,j)*detady(i,j))*heaviside_scalar(n_u(i,j)*detadx(i,j)+n_v(i,j)*detady(i,j))
     end do
@@ -206,7 +202,7 @@ subroutine get_tau_wave_bot(tau_wave_x, tau_wave_y, tau_wave_mag)
 !
 ! This subroutine provides plane-averaged value of wave stresses and the magnitude
 
-use param, only : use_custom_wall_point, boundary_model_grid_point
+use param, only : use_custom_wall_point, wall_model_grid_point, wave_model_grid_point
 
 implicit none
 real(rprec), intent(out) :: tau_wave_x     
@@ -214,15 +210,18 @@ real(rprec), intent(out) :: tau_wave_y
 real(rprec), intent(out) :: tau_wave_mag 
 
 real(rprec) :: fdu_sum, fdv_sum, h
-integer      :: jx, jy, kpoint
+integer      :: jx, jy, k_wall, k_wave
 
 if (use_custom_wall_point) then
-        kpoint = boundary_model_grid_point
+        k_wall = wall_model_grid_point
+        k_wave = wave_model_grid_point
+
 else
-        kpoint = 1 !default to first grid point
+        k_wall = 1 !default to first grid point
+        k_wave = 1 
 endif
 
-h = real(kpoint, rprec) * dz
+h = real(k_wave, rprec) * dz
 
 fdu_sum = 0._rprec
 fdv_sum = 0._rprec

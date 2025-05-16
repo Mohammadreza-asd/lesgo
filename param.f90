@@ -192,9 +192,8 @@ logical :: is_swell = .false. ! Swell correction?
 ! Grid point selection for wall model and wave drag model calculations
 logical :: use_custom_wall_point = .true.
 ! If LBC_MOM = 2 and use_sea_drag_model = .true., specify the target grid point:
-! 1 - use first grid point for wall and wave model
-! 2 - use third grid point for wall and wave model
-integer :: boundary_model_grid_point = 1
+integer :: wall_model_grid_point = 1
+integer :: wave_model_grid_point = 1
 
 ! Prescribe bottom and top wall streamwise velocity
 ! Only for DNS (sgs=.false.) and full channel (lbc_mom = ubc_mom = 1)

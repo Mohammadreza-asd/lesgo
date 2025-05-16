@@ -172,7 +172,7 @@ subroutine ws_equilibrium_lbc
 !*******************************************************************************
 use param, only : coord, read_endian, dz, ld, nx, ny, vonk, zo, use_sea_drag_model, jt_total, total_time, path, nsteps_wavy
 use param, only : sea_drag_io_flag, sea_drag_io_nstart, sea_drag_io_nend, sea_drag_io_nskip, write_endian,is_swell
-use param, only : use_custom_wall_point, boundary_model_grid_point
+use param, only : use_custom_wall_point, wall_model_grid_point, wave_model_grid_point
 use sim_param, only : u, v, ustar_lbc
 use sea_surface_drag_model
 use string_util
@@ -183,24 +183,24 @@ use scalars, only : obukhov, phi_m
 
 implicit none
 
-integer :: i, j, kpoint
+integer :: i, j, k_wall, k_wave
+real(rprec) :: h
 character (64) :: fname
 real(rprec), dimension(nx, ny) :: denom, u_avg
 real(rprec), dimension(ld, ny) :: u1, v1
 real(rprec) :: const, time_wavy,factor,zloc,swell_term
 logical :: exst
 
+if (use_custom_wall_point) then
+        k_wall = wall_model_grid_point
+        k_wave = wave_model_grid_point
+else
+        k_wall = 1
+        k_wave = 1
+endif
 
-select case (kpoint)
-    case (1)
-        zloc = 0.5_rprec * dz
-    case (3)
-        zloc = 2.5_rprec * dz
-    case default
-        print *, "ERROR: Only kpoint = 1 or 3 supported. Got:", kpoint
-        stop
-end select
-
+h= (real (k_wall, rprec) - 0.5_rprec) *dz
+zloc= h
 
 if(use_sea_drag_model) then
         call sea_surface_drag_model_forces()
