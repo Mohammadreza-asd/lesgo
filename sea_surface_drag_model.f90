@@ -83,11 +83,18 @@ if (coord .eq. 0) then
    print *, 'c,cx,cy,k,kx,ky,a,omega (non-dimensional)',c_phase,cx_phase,cy_phase,k_wavno,kx_wavno,ky_wavno,a_amp,omega_freq
 endif
 
+
+if (k_wave > k_wall) then
+        print *, "ERROR: wave model grid point (", k_wave, ") must be <= wall model grid point  (" , k_wall, ") "
+        STOP
+endif
+
+
 if (use_custom_wall_point) then
     k_wave = wave_model_grid_point
     d =(real(k_wave, rprec) - 0.5_rprec)* dz
     if (d< a_amp) then
-            print *, "d < a_amp. Values:", d , a_amp
+            print *, "ERROR: Grid height (d) < wave amplitude (a_amp). Values:", d , a_amp
             STOP
     endif
 end if
