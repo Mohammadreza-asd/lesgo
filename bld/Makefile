@@ -57,10 +57,10 @@ RM = /share/Apps/cascade24v2/gcc-12.4.0/cmake-3.30.5-4phgfzroq4cz5sjkcmwlijvri6t
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moa424/ada823_proj/moa424/lesgo
+CMAKE_SOURCE_DIR = /home/moa424/ada823_proj/moa424/lesgo_grid
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moa424/ada823_proj/moa424/lesgo/bld
+CMAKE_BINARY_DIR = /home/moa424/ada823_proj/moa424/lesgo_grid/bld
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles /home/moa424/ada823_proj/moa424/lesgo/bld//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles /home/moa424/ada823_proj/moa424/lesgo_grid/bld//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

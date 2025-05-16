@@ -53,10 +53,10 @@ RM = /share/Apps/cascade24v2/gcc-12.4.0/cmake-3.30.5-4phgfzroq4cz5sjkcmwlijvri6t
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moa424/ada823_proj/moa424/lesgo
+CMAKE_SOURCE_DIR = /home/moa424/ada823_proj/moa424/lesgo_grid
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moa424/ada823_proj/moa424/lesgo/bld
+CMAKE_BINARY_DIR = /home/moa424/ada823_proj/moa424/lesgo_grid/bld
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lesgo-mpi.dir/depend.make
@@ -70,641 +70,641 @@ include CMakeFiles/lesgo-mpi.dir/progress.make
 include CMakeFiles/lesgo-mpi.dir/flags.make
 
 CMakeFiles/lesgo-mpi.dir/cfl_util.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/cfl_util.f90.o: /home/moa424/ada823_proj/moa424/lesgo/cfl_util.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/lesgo-mpi.dir/cfl_util.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/cfl_util.f90 -o CMakeFiles/lesgo-mpi.dir/cfl_util.f90.o
+CMakeFiles/lesgo-mpi.dir/cfl_util.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/cfl_util.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/lesgo-mpi.dir/cfl_util.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/cfl_util.f90 -o CMakeFiles/lesgo-mpi.dir/cfl_util.f90.o
 
 CMakeFiles/lesgo-mpi.dir/cfl_util.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/cfl_util.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/cfl_util.f90 > CMakeFiles/lesgo-mpi.dir/cfl_util.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/cfl_util.f90 > CMakeFiles/lesgo-mpi.dir/cfl_util.f90.i
 
 CMakeFiles/lesgo-mpi.dir/cfl_util.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/cfl_util.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/cfl_util.f90 -o CMakeFiles/lesgo-mpi.dir/cfl_util.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/cfl_util.f90 -o CMakeFiles/lesgo-mpi.dir/cfl_util.f90.s
 
 CMakeFiles/lesgo-mpi.dir/clocks.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/clocks.f90.o: /home/moa424/ada823_proj/moa424/lesgo/clocks.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/lesgo-mpi.dir/clocks.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/clocks.f90 -o CMakeFiles/lesgo-mpi.dir/clocks.f90.o
+CMakeFiles/lesgo-mpi.dir/clocks.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/clocks.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/lesgo-mpi.dir/clocks.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/clocks.f90 -o CMakeFiles/lesgo-mpi.dir/clocks.f90.o
 
 CMakeFiles/lesgo-mpi.dir/clocks.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/clocks.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/clocks.f90 > CMakeFiles/lesgo-mpi.dir/clocks.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/clocks.f90 > CMakeFiles/lesgo-mpi.dir/clocks.f90.i
 
 CMakeFiles/lesgo-mpi.dir/clocks.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/clocks.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/clocks.f90 -o CMakeFiles/lesgo-mpi.dir/clocks.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/clocks.f90 -o CMakeFiles/lesgo-mpi.dir/clocks.f90.s
 
 CMakeFiles/lesgo-mpi.dir/convec.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/convec.f90.o: /home/moa424/ada823_proj/moa424/lesgo/convec.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object CMakeFiles/lesgo-mpi.dir/convec.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/convec.f90 -o CMakeFiles/lesgo-mpi.dir/convec.f90.o
+CMakeFiles/lesgo-mpi.dir/convec.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/convec.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object CMakeFiles/lesgo-mpi.dir/convec.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/convec.f90 -o CMakeFiles/lesgo-mpi.dir/convec.f90.o
 
 CMakeFiles/lesgo-mpi.dir/convec.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/convec.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/convec.f90 > CMakeFiles/lesgo-mpi.dir/convec.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/convec.f90 > CMakeFiles/lesgo-mpi.dir/convec.f90.i
 
 CMakeFiles/lesgo-mpi.dir/convec.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/convec.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/convec.f90 -o CMakeFiles/lesgo-mpi.dir/convec.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/convec.f90 -o CMakeFiles/lesgo-mpi.dir/convec.f90.s
 
 CMakeFiles/lesgo-mpi.dir/coriolis.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/coriolis.f90.o: /home/moa424/ada823_proj/moa424/lesgo/coriolis.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building Fortran object CMakeFiles/lesgo-mpi.dir/coriolis.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/coriolis.f90 -o CMakeFiles/lesgo-mpi.dir/coriolis.f90.o
+CMakeFiles/lesgo-mpi.dir/coriolis.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/coriolis.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building Fortran object CMakeFiles/lesgo-mpi.dir/coriolis.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/coriolis.f90 -o CMakeFiles/lesgo-mpi.dir/coriolis.f90.o
 
 CMakeFiles/lesgo-mpi.dir/coriolis.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/coriolis.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/coriolis.f90 > CMakeFiles/lesgo-mpi.dir/coriolis.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/coriolis.f90 > CMakeFiles/lesgo-mpi.dir/coriolis.f90.i
 
 CMakeFiles/lesgo-mpi.dir/coriolis.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/coriolis.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/coriolis.f90 -o CMakeFiles/lesgo-mpi.dir/coriolis.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/coriolis.f90 -o CMakeFiles/lesgo-mpi.dir/coriolis.f90.s
 
 CMakeFiles/lesgo-mpi.dir/derivatives.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/derivatives.f90.o: /home/moa424/ada823_proj/moa424/lesgo/derivatives.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object CMakeFiles/lesgo-mpi.dir/derivatives.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/derivatives.f90 -o CMakeFiles/lesgo-mpi.dir/derivatives.f90.o
+CMakeFiles/lesgo-mpi.dir/derivatives.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/derivatives.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object CMakeFiles/lesgo-mpi.dir/derivatives.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/derivatives.f90 -o CMakeFiles/lesgo-mpi.dir/derivatives.f90.o
 
 CMakeFiles/lesgo-mpi.dir/derivatives.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/derivatives.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/derivatives.f90 > CMakeFiles/lesgo-mpi.dir/derivatives.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/derivatives.f90 > CMakeFiles/lesgo-mpi.dir/derivatives.f90.i
 
 CMakeFiles/lesgo-mpi.dir/derivatives.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/derivatives.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/derivatives.f90 -o CMakeFiles/lesgo-mpi.dir/derivatives.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/derivatives.f90 -o CMakeFiles/lesgo-mpi.dir/derivatives.f90.s
 
 CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.o: /home/moa424/ada823_proj/moa424/lesgo/divstress_uv.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building Fortran object CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/divstress_uv.f90 -o CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.o
+CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/divstress_uv.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building Fortran object CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/divstress_uv.f90 -o CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.o
 
 CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/divstress_uv.f90 > CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/divstress_uv.f90 > CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.i
 
 CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/divstress_uv.f90 -o CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/divstress_uv.f90 -o CMakeFiles/lesgo-mpi.dir/divstress_uv.f90.s
 
 CMakeFiles/lesgo-mpi.dir/divstress_w.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/divstress_w.f90.o: /home/moa424/ada823_proj/moa424/lesgo/divstress_w.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building Fortran object CMakeFiles/lesgo-mpi.dir/divstress_w.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/divstress_w.f90 -o CMakeFiles/lesgo-mpi.dir/divstress_w.f90.o
+CMakeFiles/lesgo-mpi.dir/divstress_w.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/divstress_w.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building Fortran object CMakeFiles/lesgo-mpi.dir/divstress_w.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/divstress_w.f90 -o CMakeFiles/lesgo-mpi.dir/divstress_w.f90.o
 
 CMakeFiles/lesgo-mpi.dir/divstress_w.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/divstress_w.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/divstress_w.f90 > CMakeFiles/lesgo-mpi.dir/divstress_w.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/divstress_w.f90 > CMakeFiles/lesgo-mpi.dir/divstress_w.f90.i
 
 CMakeFiles/lesgo-mpi.dir/divstress_w.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/divstress_w.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/divstress_w.f90 -o CMakeFiles/lesgo-mpi.dir/divstress_w.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/divstress_w.f90 -o CMakeFiles/lesgo-mpi.dir/divstress_w.f90.s
 
 CMakeFiles/lesgo-mpi.dir/emul_complex.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/emul_complex.f90.o: /home/moa424/ada823_proj/moa424/lesgo/emul_complex.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building Fortran object CMakeFiles/lesgo-mpi.dir/emul_complex.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/emul_complex.f90 -o CMakeFiles/lesgo-mpi.dir/emul_complex.f90.o
+CMakeFiles/lesgo-mpi.dir/emul_complex.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/emul_complex.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building Fortran object CMakeFiles/lesgo-mpi.dir/emul_complex.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/emul_complex.f90 -o CMakeFiles/lesgo-mpi.dir/emul_complex.f90.o
 
 CMakeFiles/lesgo-mpi.dir/emul_complex.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/emul_complex.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/emul_complex.f90 > CMakeFiles/lesgo-mpi.dir/emul_complex.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/emul_complex.f90 > CMakeFiles/lesgo-mpi.dir/emul_complex.f90.i
 
 CMakeFiles/lesgo-mpi.dir/emul_complex.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/emul_complex.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/emul_complex.f90 -o CMakeFiles/lesgo-mpi.dir/emul_complex.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/emul_complex.f90 -o CMakeFiles/lesgo-mpi.dir/emul_complex.f90.s
 
 CMakeFiles/lesgo-mpi.dir/fft.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/fft.f90.o: /home/moa424/ada823_proj/moa424/lesgo/fft.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building Fortran object CMakeFiles/lesgo-mpi.dir/fft.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/fft.f90 -o CMakeFiles/lesgo-mpi.dir/fft.f90.o
+CMakeFiles/lesgo-mpi.dir/fft.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/fft.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building Fortran object CMakeFiles/lesgo-mpi.dir/fft.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/fft.f90 -o CMakeFiles/lesgo-mpi.dir/fft.f90.o
 
 CMakeFiles/lesgo-mpi.dir/fft.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/fft.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/fft.f90 > CMakeFiles/lesgo-mpi.dir/fft.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/fft.f90 > CMakeFiles/lesgo-mpi.dir/fft.f90.i
 
 CMakeFiles/lesgo-mpi.dir/fft.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/fft.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/fft.f90 -o CMakeFiles/lesgo-mpi.dir/fft.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/fft.f90 -o CMakeFiles/lesgo-mpi.dir/fft.f90.s
 
 CMakeFiles/lesgo-mpi.dir/finalize.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/finalize.f90.o: /home/moa424/ada823_proj/moa424/lesgo/finalize.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building Fortran object CMakeFiles/lesgo-mpi.dir/finalize.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/finalize.f90 -o CMakeFiles/lesgo-mpi.dir/finalize.f90.o
+CMakeFiles/lesgo-mpi.dir/finalize.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/finalize.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building Fortran object CMakeFiles/lesgo-mpi.dir/finalize.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/finalize.f90 -o CMakeFiles/lesgo-mpi.dir/finalize.f90.o
 
 CMakeFiles/lesgo-mpi.dir/finalize.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/finalize.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/finalize.f90 > CMakeFiles/lesgo-mpi.dir/finalize.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/finalize.f90 > CMakeFiles/lesgo-mpi.dir/finalize.f90.i
 
 CMakeFiles/lesgo-mpi.dir/finalize.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/finalize.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/finalize.f90 -o CMakeFiles/lesgo-mpi.dir/finalize.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/finalize.f90 -o CMakeFiles/lesgo-mpi.dir/finalize.f90.s
 
 CMakeFiles/lesgo-mpi.dir/forcing.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/forcing.f90.o: /home/moa424/ada823_proj/moa424/lesgo/forcing.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building Fortran object CMakeFiles/lesgo-mpi.dir/forcing.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/forcing.f90 -o CMakeFiles/lesgo-mpi.dir/forcing.f90.o
+CMakeFiles/lesgo-mpi.dir/forcing.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/forcing.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building Fortran object CMakeFiles/lesgo-mpi.dir/forcing.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/forcing.f90 -o CMakeFiles/lesgo-mpi.dir/forcing.f90.o
 
 CMakeFiles/lesgo-mpi.dir/forcing.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/forcing.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/forcing.f90 > CMakeFiles/lesgo-mpi.dir/forcing.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/forcing.f90 > CMakeFiles/lesgo-mpi.dir/forcing.f90.i
 
 CMakeFiles/lesgo-mpi.dir/forcing.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/forcing.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/forcing.f90 -o CMakeFiles/lesgo-mpi.dir/forcing.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/forcing.f90 -o CMakeFiles/lesgo-mpi.dir/forcing.f90.s
 
 CMakeFiles/lesgo-mpi.dir/fringe.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/fringe.f90.o: /home/moa424/ada823_proj/moa424/lesgo/fringe.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building Fortran object CMakeFiles/lesgo-mpi.dir/fringe.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/fringe.f90 -o CMakeFiles/lesgo-mpi.dir/fringe.f90.o
+CMakeFiles/lesgo-mpi.dir/fringe.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/fringe.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building Fortran object CMakeFiles/lesgo-mpi.dir/fringe.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/fringe.f90 -o CMakeFiles/lesgo-mpi.dir/fringe.f90.o
 
 CMakeFiles/lesgo-mpi.dir/fringe.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/fringe.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/fringe.f90 > CMakeFiles/lesgo-mpi.dir/fringe.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/fringe.f90 > CMakeFiles/lesgo-mpi.dir/fringe.f90.i
 
 CMakeFiles/lesgo-mpi.dir/fringe.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/fringe.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/fringe.f90 -o CMakeFiles/lesgo-mpi.dir/fringe.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/fringe.f90 -o CMakeFiles/lesgo-mpi.dir/fringe.f90.s
 
 CMakeFiles/lesgo-mpi.dir/functions.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/functions.f90.o: /home/moa424/ada823_proj/moa424/lesgo/functions.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building Fortran object CMakeFiles/lesgo-mpi.dir/functions.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/functions.f90 -o CMakeFiles/lesgo-mpi.dir/functions.f90.o
+CMakeFiles/lesgo-mpi.dir/functions.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/functions.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building Fortran object CMakeFiles/lesgo-mpi.dir/functions.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/functions.f90 -o CMakeFiles/lesgo-mpi.dir/functions.f90.o
 
 CMakeFiles/lesgo-mpi.dir/functions.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/functions.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/functions.f90 > CMakeFiles/lesgo-mpi.dir/functions.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/functions.f90 > CMakeFiles/lesgo-mpi.dir/functions.f90.i
 
 CMakeFiles/lesgo-mpi.dir/functions.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/functions.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/functions.f90 -o CMakeFiles/lesgo-mpi.dir/functions.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/functions.f90 -o CMakeFiles/lesgo-mpi.dir/functions.f90.s
 
 CMakeFiles/lesgo-mpi.dir/grid.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/grid.f90.o: /home/moa424/ada823_proj/moa424/lesgo/grid.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building Fortran object CMakeFiles/lesgo-mpi.dir/grid.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/grid.f90 -o CMakeFiles/lesgo-mpi.dir/grid.f90.o
+CMakeFiles/lesgo-mpi.dir/grid.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/grid.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building Fortran object CMakeFiles/lesgo-mpi.dir/grid.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/grid.f90 -o CMakeFiles/lesgo-mpi.dir/grid.f90.o
 
 CMakeFiles/lesgo-mpi.dir/grid.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/grid.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/grid.f90 > CMakeFiles/lesgo-mpi.dir/grid.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/grid.f90 > CMakeFiles/lesgo-mpi.dir/grid.f90.i
 
 CMakeFiles/lesgo-mpi.dir/grid.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/grid.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/grid.f90 -o CMakeFiles/lesgo-mpi.dir/grid.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/grid.f90 -o CMakeFiles/lesgo-mpi.dir/grid.f90.s
 
 CMakeFiles/lesgo-mpi.dir/inflow.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/inflow.f90.o: /home/moa424/ada823_proj/moa424/lesgo/inflow.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building Fortran object CMakeFiles/lesgo-mpi.dir/inflow.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/inflow.f90 -o CMakeFiles/lesgo-mpi.dir/inflow.f90.o
+CMakeFiles/lesgo-mpi.dir/inflow.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/inflow.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building Fortran object CMakeFiles/lesgo-mpi.dir/inflow.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/inflow.f90 -o CMakeFiles/lesgo-mpi.dir/inflow.f90.o
 
 CMakeFiles/lesgo-mpi.dir/inflow.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/inflow.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/inflow.f90 > CMakeFiles/lesgo-mpi.dir/inflow.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/inflow.f90 > CMakeFiles/lesgo-mpi.dir/inflow.f90.i
 
 CMakeFiles/lesgo-mpi.dir/inflow.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/inflow.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/inflow.f90 -o CMakeFiles/lesgo-mpi.dir/inflow.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/inflow.f90 -o CMakeFiles/lesgo-mpi.dir/inflow.f90.s
 
 CMakeFiles/lesgo-mpi.dir/initial.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/initial.f90.o: /home/moa424/ada823_proj/moa424/lesgo/initial.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building Fortran object CMakeFiles/lesgo-mpi.dir/initial.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/initial.f90 -o CMakeFiles/lesgo-mpi.dir/initial.f90.o
+CMakeFiles/lesgo-mpi.dir/initial.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/initial.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building Fortran object CMakeFiles/lesgo-mpi.dir/initial.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/initial.f90 -o CMakeFiles/lesgo-mpi.dir/initial.f90.o
 
 CMakeFiles/lesgo-mpi.dir/initial.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/initial.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/initial.f90 > CMakeFiles/lesgo-mpi.dir/initial.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/initial.f90 > CMakeFiles/lesgo-mpi.dir/initial.f90.i
 
 CMakeFiles/lesgo-mpi.dir/initial.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/initial.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/initial.f90 -o CMakeFiles/lesgo-mpi.dir/initial.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/initial.f90 -o CMakeFiles/lesgo-mpi.dir/initial.f90.s
 
 CMakeFiles/lesgo-mpi.dir/initialize.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/initialize.f90.o: /home/moa424/ada823_proj/moa424/lesgo/initialize.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building Fortran object CMakeFiles/lesgo-mpi.dir/initialize.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/initialize.f90 -o CMakeFiles/lesgo-mpi.dir/initialize.f90.o
+CMakeFiles/lesgo-mpi.dir/initialize.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/initialize.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building Fortran object CMakeFiles/lesgo-mpi.dir/initialize.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/initialize.f90 -o CMakeFiles/lesgo-mpi.dir/initialize.f90.o
 
 CMakeFiles/lesgo-mpi.dir/initialize.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/initialize.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/initialize.f90 > CMakeFiles/lesgo-mpi.dir/initialize.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/initialize.f90 > CMakeFiles/lesgo-mpi.dir/initialize.f90.i
 
 CMakeFiles/lesgo-mpi.dir/initialize.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/initialize.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/initialize.f90 -o CMakeFiles/lesgo-mpi.dir/initialize.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/initialize.f90 -o CMakeFiles/lesgo-mpi.dir/initialize.f90.s
 
 CMakeFiles/lesgo-mpi.dir/input_util.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/input_util.f90.o: /home/moa424/ada823_proj/moa424/lesgo/input_util.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building Fortran object CMakeFiles/lesgo-mpi.dir/input_util.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/input_util.f90 -o CMakeFiles/lesgo-mpi.dir/input_util.f90.o
+CMakeFiles/lesgo-mpi.dir/input_util.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/input_util.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building Fortran object CMakeFiles/lesgo-mpi.dir/input_util.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/input_util.f90 -o CMakeFiles/lesgo-mpi.dir/input_util.f90.o
 
 CMakeFiles/lesgo-mpi.dir/input_util.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/input_util.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/input_util.f90 > CMakeFiles/lesgo-mpi.dir/input_util.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/input_util.f90 > CMakeFiles/lesgo-mpi.dir/input_util.f90.i
 
 CMakeFiles/lesgo-mpi.dir/input_util.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/input_util.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/input_util.f90 -o CMakeFiles/lesgo-mpi.dir/input_util.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/input_util.f90 -o CMakeFiles/lesgo-mpi.dir/input_util.f90.s
 
 CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.o: /home/moa424/ada823_proj/moa424/lesgo/interpolag_Sdep.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building Fortran object CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/interpolag_Sdep.f90 -o CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.o
+CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/interpolag_Sdep.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building Fortran object CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/interpolag_Sdep.f90 -o CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.o
 
 CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/interpolag_Sdep.f90 > CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/interpolag_Sdep.f90 > CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.i
 
 CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/interpolag_Sdep.f90 -o CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/interpolag_Sdep.f90 -o CMakeFiles/lesgo-mpi.dir/interpolag_Sdep.f90.s
 
 CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.o: /home/moa424/ada823_proj/moa424/lesgo/interpolag_Ssim.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building Fortran object CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/interpolag_Ssim.f90 -o CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.o
+CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/interpolag_Ssim.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building Fortran object CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/interpolag_Ssim.f90 -o CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.o
 
 CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/interpolag_Ssim.f90 > CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/interpolag_Ssim.f90 > CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.i
 
 CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/interpolag_Ssim.f90 -o CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/interpolag_Ssim.f90 -o CMakeFiles/lesgo-mpi.dir/interpolag_Ssim.f90.s
 
 CMakeFiles/lesgo-mpi.dir/io.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/io.f90.o: /home/moa424/ada823_proj/moa424/lesgo/io.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building Fortran object CMakeFiles/lesgo-mpi.dir/io.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/io.f90 -o CMakeFiles/lesgo-mpi.dir/io.f90.o
+CMakeFiles/lesgo-mpi.dir/io.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/io.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building Fortran object CMakeFiles/lesgo-mpi.dir/io.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/io.f90 -o CMakeFiles/lesgo-mpi.dir/io.f90.o
 
 CMakeFiles/lesgo-mpi.dir/io.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/io.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/io.f90 > CMakeFiles/lesgo-mpi.dir/io.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/io.f90 > CMakeFiles/lesgo-mpi.dir/io.f90.i
 
 CMakeFiles/lesgo-mpi.dir/io.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/io.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/io.f90 -o CMakeFiles/lesgo-mpi.dir/io.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/io.f90 -o CMakeFiles/lesgo-mpi.dir/io.f90.s
 
 CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.o: /home/moa424/ada823_proj/moa424/lesgo/lagrange_Sdep.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building Fortran object CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/lagrange_Sdep.f90 -o CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.o
+CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/lagrange_Sdep.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building Fortran object CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/lagrange_Sdep.f90 -o CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.o
 
 CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/lagrange_Sdep.f90 > CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/lagrange_Sdep.f90 > CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.i
 
 CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/lagrange_Sdep.f90 -o CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/lagrange_Sdep.f90 -o CMakeFiles/lesgo-mpi.dir/lagrange_Sdep.f90.s
 
 CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.o: /home/moa424/ada823_proj/moa424/lesgo/lagrange_Ssim.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building Fortran object CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/lagrange_Ssim.f90 -o CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.o
+CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/lagrange_Ssim.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building Fortran object CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/lagrange_Ssim.f90 -o CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.o
 
 CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/lagrange_Ssim.f90 > CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/lagrange_Ssim.f90 > CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.i
 
 CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/lagrange_Ssim.f90 -o CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/lagrange_Ssim.f90 -o CMakeFiles/lesgo-mpi.dir/lagrange_Ssim.f90.s
 
 CMakeFiles/lesgo-mpi.dir/main.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/main.f90.o: /home/moa424/ada823_proj/moa424/lesgo/main.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building Fortran object CMakeFiles/lesgo-mpi.dir/main.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/main.f90 -o CMakeFiles/lesgo-mpi.dir/main.f90.o
+CMakeFiles/lesgo-mpi.dir/main.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/main.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building Fortran object CMakeFiles/lesgo-mpi.dir/main.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/main.f90 -o CMakeFiles/lesgo-mpi.dir/main.f90.o
 
 CMakeFiles/lesgo-mpi.dir/main.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/main.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/main.f90 > CMakeFiles/lesgo-mpi.dir/main.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/main.f90 > CMakeFiles/lesgo-mpi.dir/main.f90.i
 
 CMakeFiles/lesgo-mpi.dir/main.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/main.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/main.f90 -o CMakeFiles/lesgo-mpi.dir/main.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/main.f90 -o CMakeFiles/lesgo-mpi.dir/main.f90.s
 
 CMakeFiles/lesgo-mpi.dir/messages.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/messages.f90.o: /home/moa424/ada823_proj/moa424/lesgo/messages.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building Fortran object CMakeFiles/lesgo-mpi.dir/messages.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/messages.f90 -o CMakeFiles/lesgo-mpi.dir/messages.f90.o
+CMakeFiles/lesgo-mpi.dir/messages.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/messages.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building Fortran object CMakeFiles/lesgo-mpi.dir/messages.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/messages.f90 -o CMakeFiles/lesgo-mpi.dir/messages.f90.o
 
 CMakeFiles/lesgo-mpi.dir/messages.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/messages.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/messages.f90 > CMakeFiles/lesgo-mpi.dir/messages.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/messages.f90 > CMakeFiles/lesgo-mpi.dir/messages.f90.i
 
 CMakeFiles/lesgo-mpi.dir/messages.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/messages.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/messages.f90 -o CMakeFiles/lesgo-mpi.dir/messages.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/messages.f90 -o CMakeFiles/lesgo-mpi.dir/messages.f90.s
 
 CMakeFiles/lesgo-mpi.dir/param.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/param.f90.o: /home/moa424/ada823_proj/moa424/lesgo/param.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building Fortran object CMakeFiles/lesgo-mpi.dir/param.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/param.f90 -o CMakeFiles/lesgo-mpi.dir/param.f90.o
+CMakeFiles/lesgo-mpi.dir/param.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/param.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building Fortran object CMakeFiles/lesgo-mpi.dir/param.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/param.f90 -o CMakeFiles/lesgo-mpi.dir/param.f90.o
 
 CMakeFiles/lesgo-mpi.dir/param.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/param.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/param.f90 > CMakeFiles/lesgo-mpi.dir/param.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/param.f90 > CMakeFiles/lesgo-mpi.dir/param.f90.i
 
 CMakeFiles/lesgo-mpi.dir/param.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/param.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/param.f90 -o CMakeFiles/lesgo-mpi.dir/param.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/param.f90 -o CMakeFiles/lesgo-mpi.dir/param.f90.s
 
 CMakeFiles/lesgo-mpi.dir/param_output.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/param_output.f90.o: /home/moa424/ada823_proj/moa424/lesgo/param_output.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building Fortran object CMakeFiles/lesgo-mpi.dir/param_output.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/param_output.f90 -o CMakeFiles/lesgo-mpi.dir/param_output.f90.o
+CMakeFiles/lesgo-mpi.dir/param_output.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/param_output.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building Fortran object CMakeFiles/lesgo-mpi.dir/param_output.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/param_output.f90 -o CMakeFiles/lesgo-mpi.dir/param_output.f90.o
 
 CMakeFiles/lesgo-mpi.dir/param_output.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/param_output.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/param_output.f90 > CMakeFiles/lesgo-mpi.dir/param_output.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/param_output.f90 > CMakeFiles/lesgo-mpi.dir/param_output.f90.i
 
 CMakeFiles/lesgo-mpi.dir/param_output.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/param_output.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/param_output.f90 -o CMakeFiles/lesgo-mpi.dir/param_output.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/param_output.f90 -o CMakeFiles/lesgo-mpi.dir/param_output.f90.s
 
 CMakeFiles/lesgo-mpi.dir/pid.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/pid.f90.o: /home/moa424/ada823_proj/moa424/lesgo/pid.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building Fortran object CMakeFiles/lesgo-mpi.dir/pid.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/pid.f90 -o CMakeFiles/lesgo-mpi.dir/pid.f90.o
+CMakeFiles/lesgo-mpi.dir/pid.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/pid.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building Fortran object CMakeFiles/lesgo-mpi.dir/pid.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/pid.f90 -o CMakeFiles/lesgo-mpi.dir/pid.f90.o
 
 CMakeFiles/lesgo-mpi.dir/pid.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/pid.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/pid.f90 > CMakeFiles/lesgo-mpi.dir/pid.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/pid.f90 > CMakeFiles/lesgo-mpi.dir/pid.f90.i
 
 CMakeFiles/lesgo-mpi.dir/pid.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/pid.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/pid.f90 -o CMakeFiles/lesgo-mpi.dir/pid.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/pid.f90 -o CMakeFiles/lesgo-mpi.dir/pid.f90.s
 
 CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.o: /home/moa424/ada823_proj/moa424/lesgo/press_stag_array.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building Fortran object CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/press_stag_array.f90 -o CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.o
+CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/press_stag_array.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building Fortran object CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/press_stag_array.f90 -o CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.o
 
 CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/press_stag_array.f90 > CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/press_stag_array.f90 > CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.i
 
 CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/press_stag_array.f90 -o CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/press_stag_array.f90 -o CMakeFiles/lesgo-mpi.dir/press_stag_array.f90.s
 
 CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.o: /home/moa424/ada823_proj/moa424/lesgo/rmsdiv.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building Fortran object CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/rmsdiv.f90 -o CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.o
+CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/rmsdiv.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building Fortran object CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/rmsdiv.f90 -o CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.o
 
 CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/rmsdiv.f90 > CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/rmsdiv.f90 > CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.i
 
 CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/rmsdiv.f90 -o CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/rmsdiv.f90 -o CMakeFiles/lesgo-mpi.dir/rmsdiv.f90.s
 
 CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.o: /home/moa424/ada823_proj/moa424/lesgo/scaledep_dynamic.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building Fortran object CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/scaledep_dynamic.f90 -o CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.o
+CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/scaledep_dynamic.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building Fortran object CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/scaledep_dynamic.f90 -o CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.o
 
 CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/scaledep_dynamic.f90 > CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/scaledep_dynamic.f90 > CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.i
 
 CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/scaledep_dynamic.f90 -o CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/scaledep_dynamic.f90 -o CMakeFiles/lesgo-mpi.dir/scaledep_dynamic.f90.s
 
 CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.o: /home/moa424/ada823_proj/moa424/lesgo/shifted_inflow.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building Fortran object CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/shifted_inflow.f90 -o CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.o
+CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/shifted_inflow.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building Fortran object CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/shifted_inflow.f90 -o CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.o
 
 CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/shifted_inflow.f90 > CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/shifted_inflow.f90 > CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.i
 
 CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/shifted_inflow.f90 -o CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/shifted_inflow.f90 -o CMakeFiles/lesgo-mpi.dir/shifted_inflow.f90.s
 
 CMakeFiles/lesgo-mpi.dir/sgs_param.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/sgs_param.f90.o: /home/moa424/ada823_proj/moa424/lesgo/sgs_param.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sgs_param.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/sgs_param.f90 -o CMakeFiles/lesgo-mpi.dir/sgs_param.f90.o
+CMakeFiles/lesgo-mpi.dir/sgs_param.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/sgs_param.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sgs_param.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/sgs_param.f90 -o CMakeFiles/lesgo-mpi.dir/sgs_param.f90.o
 
 CMakeFiles/lesgo-mpi.dir/sgs_param.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/sgs_param.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/sgs_param.f90 > CMakeFiles/lesgo-mpi.dir/sgs_param.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/sgs_param.f90 > CMakeFiles/lesgo-mpi.dir/sgs_param.f90.i
 
 CMakeFiles/lesgo-mpi.dir/sgs_param.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/sgs_param.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/sgs_param.f90 -o CMakeFiles/lesgo-mpi.dir/sgs_param.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/sgs_param.f90 -o CMakeFiles/lesgo-mpi.dir/sgs_param.f90.s
 
 CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.o: /home/moa424/ada823_proj/moa424/lesgo/sgs_stag_util.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/sgs_stag_util.f90 -o CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.o
+CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/sgs_stag_util.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/sgs_stag_util.f90 -o CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.o
 
 CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/sgs_stag_util.f90 > CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/sgs_stag_util.f90 > CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.i
 
 CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/sgs_stag_util.f90 -o CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/sgs_stag_util.f90 -o CMakeFiles/lesgo-mpi.dir/sgs_stag_util.f90.s
 
 CMakeFiles/lesgo-mpi.dir/sim_param.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/sim_param.f90.o: /home/moa424/ada823_proj/moa424/lesgo/sim_param.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sim_param.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/sim_param.f90 -o CMakeFiles/lesgo-mpi.dir/sim_param.f90.o
+CMakeFiles/lesgo-mpi.dir/sim_param.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/sim_param.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sim_param.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/sim_param.f90 -o CMakeFiles/lesgo-mpi.dir/sim_param.f90.o
 
 CMakeFiles/lesgo-mpi.dir/sim_param.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/sim_param.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/sim_param.f90 > CMakeFiles/lesgo-mpi.dir/sim_param.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/sim_param.f90 > CMakeFiles/lesgo-mpi.dir/sim_param.f90.i
 
 CMakeFiles/lesgo-mpi.dir/sim_param.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/sim_param.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/sim_param.f90 -o CMakeFiles/lesgo-mpi.dir/sim_param.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/sim_param.f90 -o CMakeFiles/lesgo-mpi.dir/sim_param.f90.s
 
 CMakeFiles/lesgo-mpi.dir/sponge.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/sponge.f90.o: /home/moa424/ada823_proj/moa424/lesgo/sponge.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sponge.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/sponge.f90 -o CMakeFiles/lesgo-mpi.dir/sponge.f90.o
+CMakeFiles/lesgo-mpi.dir/sponge.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/sponge.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sponge.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/sponge.f90 -o CMakeFiles/lesgo-mpi.dir/sponge.f90.o
 
 CMakeFiles/lesgo-mpi.dir/sponge.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/sponge.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/sponge.f90 > CMakeFiles/lesgo-mpi.dir/sponge.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/sponge.f90 > CMakeFiles/lesgo-mpi.dir/sponge.f90.i
 
 CMakeFiles/lesgo-mpi.dir/sponge.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/sponge.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/sponge.f90 -o CMakeFiles/lesgo-mpi.dir/sponge.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/sponge.f90 -o CMakeFiles/lesgo-mpi.dir/sponge.f90.s
 
 CMakeFiles/lesgo-mpi.dir/stat_defs.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/stat_defs.f90.o: /home/moa424/ada823_proj/moa424/lesgo/stat_defs.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building Fortran object CMakeFiles/lesgo-mpi.dir/stat_defs.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/stat_defs.f90 -o CMakeFiles/lesgo-mpi.dir/stat_defs.f90.o
+CMakeFiles/lesgo-mpi.dir/stat_defs.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/stat_defs.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building Fortran object CMakeFiles/lesgo-mpi.dir/stat_defs.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/stat_defs.f90 -o CMakeFiles/lesgo-mpi.dir/stat_defs.f90.o
 
 CMakeFiles/lesgo-mpi.dir/stat_defs.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/stat_defs.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/stat_defs.f90 > CMakeFiles/lesgo-mpi.dir/stat_defs.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/stat_defs.f90 > CMakeFiles/lesgo-mpi.dir/stat_defs.f90.i
 
 CMakeFiles/lesgo-mpi.dir/stat_defs.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/stat_defs.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/stat_defs.f90 -o CMakeFiles/lesgo-mpi.dir/stat_defs.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/stat_defs.f90 -o CMakeFiles/lesgo-mpi.dir/stat_defs.f90.s
 
 CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.o: /home/moa424/ada823_proj/moa424/lesgo/std_dynamic.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building Fortran object CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/std_dynamic.f90 -o CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.o
+CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/std_dynamic.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building Fortran object CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/std_dynamic.f90 -o CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.o
 
 CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/std_dynamic.f90 > CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/std_dynamic.f90 > CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.i
 
 CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/std_dynamic.f90 -o CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/std_dynamic.f90 -o CMakeFiles/lesgo-mpi.dir/std_dynamic.f90.s
 
 CMakeFiles/lesgo-mpi.dir/string_util.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/string_util.f90.o: /home/moa424/ada823_proj/moa424/lesgo/string_util.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building Fortran object CMakeFiles/lesgo-mpi.dir/string_util.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/string_util.f90 -o CMakeFiles/lesgo-mpi.dir/string_util.f90.o
+CMakeFiles/lesgo-mpi.dir/string_util.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/string_util.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building Fortran object CMakeFiles/lesgo-mpi.dir/string_util.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/string_util.f90 -o CMakeFiles/lesgo-mpi.dir/string_util.f90.o
 
 CMakeFiles/lesgo-mpi.dir/string_util.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/string_util.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/string_util.f90 > CMakeFiles/lesgo-mpi.dir/string_util.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/string_util.f90 > CMakeFiles/lesgo-mpi.dir/string_util.f90.i
 
 CMakeFiles/lesgo-mpi.dir/string_util.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/string_util.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/string_util.f90 -o CMakeFiles/lesgo-mpi.dir/string_util.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/string_util.f90 -o CMakeFiles/lesgo-mpi.dir/string_util.f90.s
 
 CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.o: /home/moa424/ada823_proj/moa424/lesgo/test_filtermodule.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building Fortran object CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/test_filtermodule.f90 -o CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.o
+CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/test_filtermodule.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building Fortran object CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/test_filtermodule.f90 -o CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.o
 
 CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/test_filtermodule.f90 > CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/test_filtermodule.f90 > CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.i
 
 CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/test_filtermodule.f90 -o CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/test_filtermodule.f90 -o CMakeFiles/lesgo-mpi.dir/test_filtermodule.f90.s
 
 CMakeFiles/lesgo-mpi.dir/tridag_array.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/tridag_array.f90.o: /home/moa424/ada823_proj/moa424/lesgo/tridag_array.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building Fortran object CMakeFiles/lesgo-mpi.dir/tridag_array.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/tridag_array.f90 -o CMakeFiles/lesgo-mpi.dir/tridag_array.f90.o
+CMakeFiles/lesgo-mpi.dir/tridag_array.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/tridag_array.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building Fortran object CMakeFiles/lesgo-mpi.dir/tridag_array.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/tridag_array.f90 -o CMakeFiles/lesgo-mpi.dir/tridag_array.f90.o
 
 CMakeFiles/lesgo-mpi.dir/tridag_array.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/tridag_array.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/tridag_array.f90 > CMakeFiles/lesgo-mpi.dir/tridag_array.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/tridag_array.f90 > CMakeFiles/lesgo-mpi.dir/tridag_array.f90.i
 
 CMakeFiles/lesgo-mpi.dir/tridag_array.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/tridag_array.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/tridag_array.f90 -o CMakeFiles/lesgo-mpi.dir/tridag_array.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/tridag_array.f90 -o CMakeFiles/lesgo-mpi.dir/tridag_array.f90.s
 
 CMakeFiles/lesgo-mpi.dir/time_average.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/time_average.f90.o: /home/moa424/ada823_proj/moa424/lesgo/time_average.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building Fortran object CMakeFiles/lesgo-mpi.dir/time_average.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/time_average.f90 -o CMakeFiles/lesgo-mpi.dir/time_average.f90.o
+CMakeFiles/lesgo-mpi.dir/time_average.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/time_average.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building Fortran object CMakeFiles/lesgo-mpi.dir/time_average.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/time_average.f90 -o CMakeFiles/lesgo-mpi.dir/time_average.f90.o
 
 CMakeFiles/lesgo-mpi.dir/time_average.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/time_average.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/time_average.f90 > CMakeFiles/lesgo-mpi.dir/time_average.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/time_average.f90 > CMakeFiles/lesgo-mpi.dir/time_average.f90.i
 
 CMakeFiles/lesgo-mpi.dir/time_average.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/time_average.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/time_average.f90 -o CMakeFiles/lesgo-mpi.dir/time_average.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/time_average.f90 -o CMakeFiles/lesgo-mpi.dir/time_average.f90.s
 
 CMakeFiles/lesgo-mpi.dir/types.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/types.f90.o: /home/moa424/ada823_proj/moa424/lesgo/types.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building Fortran object CMakeFiles/lesgo-mpi.dir/types.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/types.f90 -o CMakeFiles/lesgo-mpi.dir/types.f90.o
+CMakeFiles/lesgo-mpi.dir/types.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/types.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building Fortran object CMakeFiles/lesgo-mpi.dir/types.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/types.f90 -o CMakeFiles/lesgo-mpi.dir/types.f90.o
 
 CMakeFiles/lesgo-mpi.dir/types.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/types.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/types.f90 > CMakeFiles/lesgo-mpi.dir/types.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/types.f90 > CMakeFiles/lesgo-mpi.dir/types.f90.i
 
 CMakeFiles/lesgo-mpi.dir/types.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/types.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/types.f90 -o CMakeFiles/lesgo-mpi.dir/types.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/types.f90 -o CMakeFiles/lesgo-mpi.dir/types.f90.s
 
 CMakeFiles/lesgo-mpi.dir/wallstress.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/wallstress.f90.o: /home/moa424/ada823_proj/moa424/lesgo/wallstress.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building Fortran object CMakeFiles/lesgo-mpi.dir/wallstress.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/wallstress.f90 -o CMakeFiles/lesgo-mpi.dir/wallstress.f90.o
+CMakeFiles/lesgo-mpi.dir/wallstress.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/wallstress.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building Fortran object CMakeFiles/lesgo-mpi.dir/wallstress.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/wallstress.f90 -o CMakeFiles/lesgo-mpi.dir/wallstress.f90.o
 
 CMakeFiles/lesgo-mpi.dir/wallstress.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/wallstress.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/wallstress.f90 > CMakeFiles/lesgo-mpi.dir/wallstress.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/wallstress.f90 > CMakeFiles/lesgo-mpi.dir/wallstress.f90.i
 
 CMakeFiles/lesgo-mpi.dir/wallstress.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/wallstress.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/wallstress.f90 -o CMakeFiles/lesgo-mpi.dir/wallstress.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/wallstress.f90 -o CMakeFiles/lesgo-mpi.dir/wallstress.f90.s
 
 CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.o: /home/moa424/ada823_proj/moa424/lesgo/init_random_seed.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building Fortran object CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/init_random_seed.f90 -o CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.o
+CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/init_random_seed.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building Fortran object CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/init_random_seed.f90 -o CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.o
 
 CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/init_random_seed.f90 > CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/init_random_seed.f90 > CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.i
 
 CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/init_random_seed.f90 -o CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/init_random_seed.f90 -o CMakeFiles/lesgo-mpi.dir/init_random_seed.f90.s
 
 CMakeFiles/lesgo-mpi.dir/iwmles.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/iwmles.f90.o: /home/moa424/ada823_proj/moa424/lesgo/iwmles.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building Fortran object CMakeFiles/lesgo-mpi.dir/iwmles.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/iwmles.f90 -o CMakeFiles/lesgo-mpi.dir/iwmles.f90.o
+CMakeFiles/lesgo-mpi.dir/iwmles.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/iwmles.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building Fortran object CMakeFiles/lesgo-mpi.dir/iwmles.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/iwmles.f90 -o CMakeFiles/lesgo-mpi.dir/iwmles.f90.o
 
 CMakeFiles/lesgo-mpi.dir/iwmles.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/iwmles.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/iwmles.f90 > CMakeFiles/lesgo-mpi.dir/iwmles.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/iwmles.f90 > CMakeFiles/lesgo-mpi.dir/iwmles.f90.i
 
 CMakeFiles/lesgo-mpi.dir/iwmles.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/iwmles.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/iwmles.f90 -o CMakeFiles/lesgo-mpi.dir/iwmles.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/iwmles.f90 -o CMakeFiles/lesgo-mpi.dir/iwmles.f90.s
 
 CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.o: /home/moa424/ada823_proj/moa424/lesgo/sea_surface_drag_model.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/sea_surface_drag_model.f90 -o CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.o
+CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/sea_surface_drag_model.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building Fortran object CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/sea_surface_drag_model.f90 -o CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.o
 
 CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/sea_surface_drag_model.f90 > CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/sea_surface_drag_model.f90 > CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.i
 
 CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/sea_surface_drag_model.f90 -o CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/sea_surface_drag_model.f90 -o CMakeFiles/lesgo-mpi.dir/sea_surface_drag_model.f90.s
 
 CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.o: /home/moa424/ada823_proj/moa424/lesgo/mpi_transpose_mod.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building Fortran object CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/mpi_transpose_mod.f90 -o CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.o
+CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/mpi_transpose_mod.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building Fortran object CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/mpi_transpose_mod.f90 -o CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.o
 
 CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/mpi_transpose_mod.f90 > CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/mpi_transpose_mod.f90 > CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.i
 
 CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/mpi_transpose_mod.f90 -o CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/mpi_transpose_mod.f90 -o CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.s
 
 CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.o: CMakeFiles/lesgo-mpi.dir/flags.make
-CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.o: /home/moa424/ada823_proj/moa424/lesgo/mpi_defs.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building Fortran object CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.o"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo/mpi_defs.f90 -o CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.o
+CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.o: /home/moa424/ada823_proj/moa424/lesgo_grid/mpi_defs.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building Fortran object CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.o"
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/moa424/ada823_proj/moa424/lesgo_grid/mpi_defs.f90 -o CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.o
 
 CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.i"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo/mpi_defs.f90 > CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.i
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/moa424/ada823_proj/moa424/lesgo_grid/mpi_defs.f90 > CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.i
 
 CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.s"
-	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo/mpi_defs.f90 -o CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.s
+	mpifort $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/moa424/ada823_proj/moa424/lesgo_grid/mpi_defs.f90 -o CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.s
 
 # Object files for target lesgo-mpi
 lesgo__mpi_OBJECTS = \
@@ -812,7 +812,7 @@ lesgo-mpi: CMakeFiles/lesgo-mpi.dir/mpi_transpose_mod.f90.o
 lesgo-mpi: CMakeFiles/lesgo-mpi.dir/mpi_defs.f90.o
 lesgo-mpi: CMakeFiles/lesgo-mpi.dir/build.make
 lesgo-mpi: CMakeFiles/lesgo-mpi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking Fortran executable lesgo-mpi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking Fortran executable lesgo-mpi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lesgo-mpi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -824,6 +824,6 @@ CMakeFiles/lesgo-mpi.dir/clean:
 .PHONY : CMakeFiles/lesgo-mpi.dir/clean
 
 CMakeFiles/lesgo-mpi.dir/depend:
-	cd /home/moa424/ada823_proj/moa424/lesgo/bld && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moa424/ada823_proj/moa424/lesgo /home/moa424/ada823_proj/moa424/lesgo /home/moa424/ada823_proj/moa424/lesgo/bld /home/moa424/ada823_proj/moa424/lesgo/bld /home/moa424/ada823_proj/moa424/lesgo/bld/CMakeFiles/lesgo-mpi.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/moa424/ada823_proj/moa424/lesgo_grid/bld && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moa424/ada823_proj/moa424/lesgo_grid /home/moa424/ada823_proj/moa424/lesgo_grid /home/moa424/ada823_proj/moa424/lesgo_grid/bld /home/moa424/ada823_proj/moa424/lesgo_grid/bld /home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles/lesgo-mpi.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/lesgo-mpi.dir/depend
 

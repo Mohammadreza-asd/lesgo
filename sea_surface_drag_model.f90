@@ -24,11 +24,13 @@ subroutine sea_surface_drag_model_init() !GN
 !*******************************************************************************
 use param, only : ld, nx,ny,z_i,u_star, ak, c_by_ustar, dz, coord
 use param, only : use_custom_wall_point, wall_model_grid_point, wave_model_grid_point
-integer :: k_wall, k_wave
-real(rprec) :: d
-
 
 implicit none
+
+integer :: k_wall, k_wave
+
+real (rprec) :: d
+
 allocate ( eta   (ld,ny)) ; eta    = 0._rprec
 allocate ( detadx(ld,ny)) ; detadx = 0._rprec
 allocate ( detady(ld,ny)) ; detady = 0._rprec
