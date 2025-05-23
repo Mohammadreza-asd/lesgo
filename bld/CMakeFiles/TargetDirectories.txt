@@ -1,3 +1,0 @@
-/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles/lesgo-mpi.dir
-/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles/edit_cache.dir
-/home/moa424/ada823_proj/moa424/lesgo_grid/bld/CMakeFiles/rebuild_cache.dir
